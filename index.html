@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+  <html> 
+  <head>
+  	 <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+  	  <title>Menu Bar</title>
+  </head> 
+  <body>
+  	<div id = "navbar">
+  		<ul id = "menubar">
+  		<li><a href = "#">File</a>
+  		<ul>
+  			<li><a href = "#">New</a></li>
+  			<li><a href = "#">Edit</a></li>
+  			<li><a href = "#">Save</a></li>
+  			<li><a href = "#">Save as</a></li>
+  			<li><a href = "#">Import</a></li>
+  			</ul>
+  			</li>
+  		<li><a href = "#">Edit</a>
+  		<ul>
+  			<li><a href = "#">Undo</a></li>
+  			<li><a href = "#">Redo</a></li>
+  			<li><a href = "#">Cut</a></li>
+  			<li><a href = "#">Paste</a></li>
+  			</ul>
+  		</li>	
+  		</div>
+  	</body>
+  	</html>	
