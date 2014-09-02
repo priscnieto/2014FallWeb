@@ -1,6 +1,7 @@
-#navbar{
+#navbar
+{
 	width:200px;
-	}
+}
 
 #menubar, #menubar ul
 {
@@ -24,6 +25,14 @@
     padding: 0;
     display: none;
 }
+#menubar li:hover
+{
+    background-color: #BDBDBD;
+}
+#menubar li:hover ul
+{
+    display: block;
+}
 #menubar ul li
 {
     float:none;
@@ -37,12 +46,4 @@
     text-align: left;
     text-decoration: none;
     padding: 5px;
-}
-#menubar li:hover
-{
-    background-color: #BDBDBD;
-}
-#menubar li:hover ul
-{
-    display: block;
 }
